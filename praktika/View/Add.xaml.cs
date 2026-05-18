@@ -14,14 +14,13 @@ using System.Windows.Shapes;
 namespace praktika.View
 {
     /// <summary>
-    /// Логика взаимодействия для Main.xaml
+    /// Логика взаимодействия для Add.xaml
     /// </summary>
-    public partial class Main : Page
+    public partial class Add : Page
     {
-        public Main(object Context)
+        public Add()
         {
             InitializeComponent();
-            DataContext = Context;
         }
     }
 }
