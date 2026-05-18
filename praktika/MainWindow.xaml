@@ -5,8 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:praktika"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
+        Title="MainWindow" Height="450" Width="800"
+        FontFamily="Monocraft">
+    <Grid Background="LightGray">
+        <Grid Height="50" VerticalAlignment="Top" Background="White">
+            <Image Height="40" Source="/Images/ic_student.png" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="25,0,0,0"/>
+            <TextBlock Text="Студенты и курсы" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        </Grid>
+        <Frame x:Name="frame" NavigationUIVisibility="Hidden" Margin="0,50,0,0"/>
     </Grid>
 </Window>

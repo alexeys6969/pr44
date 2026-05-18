@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -13,18 +11,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace praktika
+namespace praktika.View.Items
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Логика взаимодействия для Item.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Item : UserControl
     {
-        public static MainWindow init;
-        public MainWindow()
+        public Item()
         {
             InitializeComponent();
-            init = this;
         }
     }
 }

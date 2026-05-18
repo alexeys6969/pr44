@@ -6,4 +6,21 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Images\ic_course.png" />
+    <None Remove="Images\ic_student.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="ViewModels\" />
+    <Folder Include="Context\" />
+    <Folder Include="Classes\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\ic_course.png" />
+    <Resource Include="Images\ic_student.png" />
+  </ItemGroup>
+
 </Project>
