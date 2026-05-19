@@ -22,8 +22,8 @@ namespace praktika.Models
             }
         }
 
-        private string course;
-        public string Course
+        private Courses course;
+        public Courses Course
         {
             get { return course; }
             set
